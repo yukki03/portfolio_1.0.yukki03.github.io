@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=divice-width, initial-scale=1.0">
-        <title>Responsive Portfolio Website</title>
+        <title>Website Portfolio Responsável</title>
         <link rel="stylesheet" href="css/style.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
-
         <header class="header">
             <a href="#home" class="logo">Sabrina
                 <span>Gomes</span></a>
@@ -16,19 +16,23 @@
                 <i class='bx bx-menu' id="menu-icon"></i>
 
                 <nav class="navbar">
-                    <a href="#home" class="active">Home</a>
-                    <a href="#education">Education</a>
-                    <a href="#services">Services</a>
+                    <select name="#language" id="#language">
+                        <option value="en">English</option>
+                        <option value="pt">Português</option>
+                    </select>
+                    <a href="#home" class="active">Inicio</a>
+                    <a href="#education">Formações</a>
+                    <a href="#services">Serviços</a>
                     <a href="#testimonials">Testimonials</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Contactos</a>
                 </nav>
         </header>
 
         <section class="home" id="home">
             <div class="home-content">
-                <h1>Hi, It's <span>Sabrina</span></h1>
-                <h3 class="text-animation">I'm a <span></span></h3>
-                <p>An active gamer and passionate about learning new languages, programming techniques for digital game development and systems/applications development.</p>
+                <h1>Olá, eu sou <span>Sabrina</span></h1>
+                <h3 class="text-animation">Eu sou    <span></span></h3>
+                <p>Sou um jogador ativo e apaixonado por aprender novos idiomas e linguagens, técnicas de programação para desenvolvimento de jogos digitais e desenvolvimento de sistemas, websites e aplicativos.</p>
 
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/sabrina-yukki-gomes/?locale=en_US"><i class='bx bxl-linkedin'></i></a>
@@ -40,8 +44,8 @@
                 </div>
 
                 <div class="btn-group">
-                    <a href="#" class="btn">Hire</a>
-                    <a href="#contact" class="btn">Contact</a>
+                    <a href="#" class="btn">Contratar</a>
+                    <a href="#contact" class="btn">Conectar</a>
                 </div>
             </div>
 
@@ -51,16 +55,19 @@
         </section>
 
         <section class="education" id="education">
-            <h2 class="heading">Education</h2>
+            <h2 class="heading">Formações</h2>
 
             <div class="timeline-items">
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                        <div class="timeline-date">2019</div>
+                        <div class="timeline-date">2017 - 2019</div>
                         <div class="timeline-content">
                             <h3>ENNET</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia illum nulla, quo laborum ullam eveniet iure quaerat enim obcaecati commodi architecto accusamus odit repellat, ea perferendis? Voluptatum velit dolorum quod.</p>
+                            <p>
+                                Introdução básica ao Linux,
+                                Facebook Profissional, Capacitação profissional em Rotinas Adminastrivas e Capacitação Profissional em Informática. 
+                            </p>
                         </div>
 
                 </div>
@@ -70,7 +77,7 @@
                         <div class="timeline-date">2019 - 2021</div>
                         <div class="timeline-content">
                             <h3>Secundário Completo com Técnico em Desenvolvimento de Jogos Digitais</h3>
-                            <p>Formado pela escola ETE Cicero Dias NAVE Recife, conclui meu décimo segundo ano no ensino médio </p>
+                            <p>Formado pela escola ETE Cicero Dias NAVE Recife, conclui meu décimo segundo ano no ensino médio, obtendo juntamente o titulo de Técnico em Desenvolvimento de Jogos.</p>
                         </div>
                     
                 </div>
@@ -78,10 +85,10 @@
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                        <div class="timeline-date">2022</div>
+                        <div class="timeline-date">2021 - 2022</div>
                         <div class="timeline-content">
-                            <h3>ENJOY</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia illum nulla, quo laborum ullam eveniet iure quaerat enim obcaecati commodi architecto accusamus odit repellat, ea perferendis? Voluptatum velit dolorum quod.</p>
+                            <h3>ENJOY - Inglês Profissionalizante</h3>
+                            <p>Um reforço gramatical para o inglês, cujo qual abriu-me a possibilidade do meu primeiro emprego dentro de 6 meses no próprio estabelecimento pelo meu destaque, atuando como professor estagiario de inglês.</p>
                         </div>
                     
                 </div>
@@ -91,8 +98,8 @@
                     <div class="timeline-dot"></div>
                         <div class="timeline-date">2024</div>
                         <div class="timeline-content">
-                            <h3>For-Mar</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia illum nulla, quo laborum ullam eveniet iure quaerat enim obcaecati commodi architecto accusamus odit repellat, ea perferendis? Voluptatum velit dolorum quod.</p>
+                            <h3>For-Mar - Folha de Cálculo e Base de Dados</h3>
+                            <p>Minha primeira formação em Portugal, com foco em informática para aprender a utilização do Excel desde o básico ao mais avançado com fórmulas, banco de dados e tabelas dinâmicas.</p>
                         </div>
                         
                 </div>

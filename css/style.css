@@ -616,6 +616,10 @@ span{
         margin: 3rem 0;
         color: white;
     }
+    .select{
+        padding: 10px;
+        margin: 0 20px;
+    }
     .home{
         flex-direction: column-reverse;
         margin: 5rem 4rem;
