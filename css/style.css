@@ -215,7 +215,7 @@ span{
     }
     21%,
     40%{
-        content: "Quality Assurance";
+        content: "Game Designer";
     }
     41%,
     60%{
@@ -225,10 +225,7 @@ span{
     80%{
         content: "Software Developer";
     }
-    81%,
-    100%{
-        content: "Game Designer";
-    }
+
 }
 @keyframes typing{
     10%,
@@ -399,31 +396,28 @@ span{
     line-height: 1.7;
     margin: auto;
 }
-.testimonials{
+.projects{
     background: var(--second-bg-color);
 }
-.testimonials-box{
+.projects-box{
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.testimonials .heading{
+.projects .heading{
     margin-bottom: 5rem;
 }
-.testimonials-box img{
-    width: 15rem;
-    border-radius: 50%;
-    border: 3px solid var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
+.projects-box img{
+    margin-bottom: 3rem;
 }
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 3rem;
 }
-.testimonial-item{
+.projects-item{
     min-height: 550px;
     max-width: 450px;
     background: rgba(0, 0, 0, 0.7);
@@ -441,15 +435,15 @@ span{
     color: white;
     transition: 0.4s ease-in-out;
 }
-.testimonial-item:hover{
+.projects-item:hover{
     border: 3px solid var(--main-color);
     transform: translateY(-10px)scale(1.03);
     box-shadow: 0 0 50px var(--main-color);
 }
-.testimonial-items h2{
+.projects-items h2{
     font-size: 2.8rem;
 }
-.testimonial-item p{
+.projects-item p{
     font-size: 1.3rem;
 }
 #star{
@@ -580,7 +574,7 @@ span{
     .services{
         padding-bottom: 7rem;
     }
-    .testimonials .wrapper{
+    .projects .wrapper{
         grid-template-columns: repeat(1,1fr);
     }
     .contact form{
